@@ -13,7 +13,7 @@ const loginMassage = document.querySelector("#massage");
 loginBtn.addEventListener("click", signIn);
 
 function signIn(event) {
-    
+
     event.preventDefault();
 
     userMassage.innerText = "";
@@ -50,7 +50,7 @@ function signIn(event) {
         pasMassage.innerText = "please enter a valid password (Minimum eight characters, at least one letter and one number)!";
         sendData = false;
     }
-    if(passwordValue == confPasswordValue){
+    if(passwordValue != confPasswordValue){
         confPasMassage.innerText = "your password and confirm password do not match!";
         sendData = false;
     }

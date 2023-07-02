@@ -12,7 +12,7 @@ body{
 }
 .login{
     width: 420px;
-    height: 620px;
+    max-height: fit-content;
     padding: 60px 35px 35px 35px;
     border-radius: 35px;
     box-shadow: 2px 2px 10px #cbced1;
@@ -43,8 +43,10 @@ body{
     padding: 42px 5px 5px 5px;
 }
 .fields input{
+    max-width: fit-content;
+    max-height: fit-content;
     margin: 7px;
-    padding: 5px;
+    padding: 4.7px;
     border: none;
     background: none;
     outline: none;
@@ -59,7 +61,6 @@ body{
 .svg-icon{
     height: 25px;
     margin: 0 10px -5px 25px;
-
 }
 #btn{
     display: block;
@@ -89,4 +90,17 @@ body{
     border-radius: 5px;
     text-decoration:underline;
     color:  rgb(177, 121, 37);
+}
+
+.massages{
+    position: relative;
+    left: 1rem;
+    bottom: 0.5rem;
+    font: normal normal 100 11px Arial, Helvetica, sans-serif;
+    color: red;
+    text-shadow: 0.5px 0.5px 0.8px rgba(243, 88, 88, 0.774);
+}
+#massage{
+    font: normal normal 600 13px Arial, Helvetica, sans-serif;
+    color: rgb(34, 165, 16);
 }
