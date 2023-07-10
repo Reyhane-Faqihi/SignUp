@@ -104,3 +104,63 @@ body{
     font: normal normal 600 13px Arial, Helvetica, sans-serif;
     color: rgb(34, 165, 16);
 }
+
+
+@media(min-width: 280px) and (max-width: 376px){
+
+    .title{
+        font-size: 26px;
+    }
+
+    .login{
+        width: 264px;
+    }
+
+    .fields input{
+        max-width: 8.8em;
+        margin: 5px;
+        padding: 4.4px;
+        font-size: 13px;
+    }
+
+    .logo img{
+        width: 73px;
+        height: 73px;
+    }
+    
+    #btn{
+        font-size: 18px;
+    }
+
+    .svg-icon{
+        height: 20px;
+    }
+}
+@media(min-width: 280px){
+
+    .login{
+        width: 370px;
+    }
+
+    .logo img{
+        width: 74px;
+        height: 74px;
+    }
+
+    .fields input{
+        max-width: 8.8em;
+        margin: 3px;
+        padding: 4.4px;
+    }
+}
+@media(min-width : 384px) and (max-width : 415px){
+
+    .login{
+        width: 370px;
+    }
+    
+    .fields input{
+        max-width: 8.2em;
+        font-size: 17px;
+    }
+}
